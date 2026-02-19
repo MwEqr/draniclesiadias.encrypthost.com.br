@@ -1154,22 +1154,22 @@ img {
     transform: translateY(-5px);
 }
 
-/* Scroll Animations */
+/* Scroll Animations - FIXED */
 [data-animate] {
-    opacity: 0;
+    opacity: 1;
     transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 [data-animate="fade-up"] {
-    transform: translateY(40px);
+    transform: translateY(0px);
 }
 
 [data-animate="fade-right"] {
-    transform: translateX(-40px);
+    transform: translateX(0px);
 }
 
 [data-animate="fade-left"] {
-    transform: translateX(40px);
+    transform: translateX(0px);
 }
 
 [data-animate].animated {
